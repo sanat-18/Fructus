@@ -45,7 +45,7 @@ struct SettingsView: View {
                     GroupBox(label: SettingslabelView(label: "Application", labelImage: "apps.iphone"), content: {
                        
                         
-                        SettingsRowView(name: "Developer", content: "John / Jane")
+                        SettingsRowView(name: "DeveloperName", content: "John / Jane")
                         SettingsRowView(name: "Designer", content: "Robert Petras")
                         SettingsRowView(name: "Compatibility", content: "iOS 14")
                         SettingsRowView(name: "Website", linkLabel: "SwiftUI Masterclass", linkDestination: "swiftuimasterclass.com")
